@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@600&display=swap');
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 2%;
+    margin: 0;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+nav .profile{
+    display: flex;
+    align-items: center;
+}
+nav .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+nav .profile h1{
+    font-size: 15px;
+    margin-left: 10px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}
+nav ul li:hover{
+    border-bottom-color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+header{
+    margin: 0px;
+    background-color: antiquewhite;
+    padding: 0px;
+    
+    font-family: 'Titillium Web', sans-serif;
+}
+form{
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+form .tout{
+   background-color:rgb(228, 218, 204);
+   max-width: 37%;
+   border-radius: 2%;
+   margin-left: 32%;
+    
+    
+}
+form h1{
+    font-size: 30px;
+ text-align: center;
+
+}
+form .separation{
+    width: 500px;
+    height: 1px;
+    background-color: blueviolet;
+    margin-left: 1.5%;
+}
+form .corp-formulaire{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+form .corp-formulaire .groupe{
+   position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+}
+form .corp-formulaire .gauche .groupe input {
+    margin-top: 10px;
+    padding: 10px 5px 10px 30px;
+    border: 1px solid violet;
+    border-radius: 5px;
+    
+}
+
+form .corp-formulaire .gauche .groupe i {
+position: absolute;
+left: 10;
+top: 30px;
+padding: 15px 5px;
+color: blueviolet;
+
+}
+form .corp-formulaire .droite{
+    margin-left: 40px;
+}
+form .corp-formulaire .droite .groupe{
+    width: 100%;
+}
+form .corp-formulaire .droite .groupe textarea{
+margin-top: 5px;
+padding: 10px;
+background-color: white;
+border: 2px solid violet;
+outline: none;
+border-radius: 5px;
+resize: none;
+height: 200px;
+}
+form .peid-formulaire button{
+    margin-top: 5px;
+    color: white;
+    background-color: violet;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin-bottom: 5%;
+} 
+form .peid-formulaire button :hover {
+    transform: scale(1.5);
+}
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer .colonne p{
+    font-size: 12px;
+    color: grey;
+}
